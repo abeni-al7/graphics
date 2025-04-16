@@ -14,8 +14,8 @@ def draw_triangle():
     glVertex2f(0.5, -0.5) # Third vertex
     glEnd()
     glutSwapBuffers() # Display the triangle
-# Setup function for the OpenGL window
 
+# Setup function for the OpenGL window
 def setup_window():
     glutInit()
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB) # Use double buffering and RGB colors
